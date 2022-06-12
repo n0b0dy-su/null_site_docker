@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  web-server:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    restart: always
+    volumes:
+      - "./html/:/usr/local/apache2/htdocs/"
+    ports:
+      - "80:80"
+    expose:
+      - '80'
