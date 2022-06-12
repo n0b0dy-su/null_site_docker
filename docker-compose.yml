@@ -9,6 +9,6 @@ services:
     volumes:
       - "./html/:/usr/local/apache2/htdocs/"
     ports:
-      - "80:80"
+      - "81:80"
     expose:
       - '80'
