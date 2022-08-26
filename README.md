@@ -1,10 +1,11 @@
 # null_site
 
 Landing page para nulldevs.tech dockerizada :whale: :whale2:
+Ejemplo practico de uso de proxy en apache
 
 `wrote by: n0b0dy-su`
 
-Lo escrito a continuación describe el proceso de instlación de docker y 
+Lo escrito a continuación describe el proceso de instalación de docker y 
 docker compse mas la configuración de paache que utilicé para setear la 
 landing, pero de igual manera es util para cualquier app dockerizada del 
 mismo estilo.
